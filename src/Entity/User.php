@@ -12,7 +12,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\UserRepository")
- * @ORM\HasLifecycleCallBacks()
+ * @ORM\HasLifecycleCallbacks()
  * @UniqueEntity(
  *  fields={"email"},
  *  message="Un autre utilisateur s'est déjà inscrit avec cette adresse email, merci de la modifier."
